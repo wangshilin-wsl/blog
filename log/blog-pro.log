@@ -1,0 +1,25 @@
+2020-08-10 09:42:15.327  INFO 2432 --- [restartedMain] com.wsl.BlogApplication                  : Starting BlogApplication on LAPTOP-GGPMMAPM with PID 2432 (C:\Users\王世林\IdeaProjects\blog\target\classes started by WSL in C:\Users\王世林\IdeaProjects\blog)
+2020-08-10 09:42:15.327  INFO 2432 --- [restartedMain] com.wsl.BlogApplication                  : The following profiles are active: pro
+2020-08-10 09:42:17.237  WARN 2432 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-08-10 09:42:17.417  INFO 2432 --- [restartedMain] com.wsl.BlogApplication                  : Started BlogApplication in 2.909 seconds (JVM running for 5.497)
+2020-08-10 10:38:45.248  INFO 11172 --- [restartedMain] com.wsl.BlogApplication                  : Starting BlogApplication on LAPTOP-GGPMMAPM with PID 11172 (C:\Users\王世林\IdeaProjects\blog\target\classes started by WSL in C:\Users\王世林\IdeaProjects\blog)
+2020-08-10 10:38:45.248  INFO 11172 --- [restartedMain] com.wsl.BlogApplication                  : The following profiles are active: pro
+2020-08-10 10:38:45.986  INFO 4364 --- [restartedMain] com.wsl.BlogApplication                  : Starting BlogApplication on LAPTOP-GGPMMAPM with PID 4364 (C:\Users\王世林\IdeaProjects\blog\target\classes started by WSL in C:\Users\王世林\IdeaProjects\blog)
+2020-08-10 10:38:45.991  INFO 4364 --- [restartedMain] com.wsl.BlogApplication                  : The following profiles are active: pro
+2020-08-10 10:38:46.230  INFO 11172 --- [restartedMain] com.wsl.BlogApplication                  : Started BlogApplication in 1.125 seconds (JVM running for 2243.248)
+2020-08-10 10:38:48.571  WARN 4364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-08-10 10:38:48.588  WARN 4364 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-08-10 10:38:48.616 ERROR 4364 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
